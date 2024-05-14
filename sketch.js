@@ -13,7 +13,7 @@ function setup(){
     ballon.addImage("running",ballonsImage)
     ballon.scale= 2.2
 
-    age=createSprite(1000,400,windowWidth,windowHeight)
+    age=createSprite(500,400,windowWidth,windowHeight)
     age.addImage("playing",ageImage)
 
 }
@@ -24,5 +24,5 @@ function draw(){
   
     textSize(45)
     fill("black")
-    text("Happy Birthday Di You are very nice",660,100)
+    text("Happy Birthday Di You are very nice"400,100)
 }
